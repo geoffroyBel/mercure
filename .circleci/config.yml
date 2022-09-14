@@ -8,7 +8,7 @@ jobs:
       - image: "rastakong/mercure:v3"
     steps:
       - checkout
-      - run: hello
+      - run: echo "this is the build job"
 workflows:
   install:
     jobs:
