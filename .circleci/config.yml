@@ -5,10 +5,10 @@ version: 2.1
 jobs:
   install_mercure:
     docker:
-      - image: "rastakong/mercure:v2"
+      - image: "rastakong/mercure:v3"
     steps:
       - checkout
-      - run: git -v
+      - run: docker run -p 8001:8001 rastakong/mercure:v3
 workflows:
   install:
     jobs:
