@@ -5,7 +5,7 @@ version: 2.1
 jobs:
   install_mercure:
     docker:
-      - image: "rastakong/mercure:v1"
+      - image: "rastakong/mercure:v2"
     steps:
       - checkout
       - run: git -v
