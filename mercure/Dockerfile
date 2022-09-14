@@ -1,6 +1,6 @@
 
-FROM ubuntu:18.04
-#FROM cimg/base:2022.09
+#FROM ubuntu:18.04
+FROM cimg/base:2022.09
 USER root
 COPY ./mercure /usr/src/mercure/
 COPY ./public/ /usr/src/mercure/
