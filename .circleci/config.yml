@@ -8,7 +8,7 @@ jobs:
       - image: "rastakong/mercure:v3"
     steps:
       - checkout
-      - run: /usr/src/mercure/mercure
+      - run: hello
 workflows:
   install:
     jobs:
