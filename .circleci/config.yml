@@ -8,7 +8,7 @@ jobs:
       - image: "rastakong/mercure:v1"
     steps:
       - checkout
-      - run: docker run -p 8001:8001 rastakong/mercure:v1
+      - run: git -v
 workflows:
   install:
     jobs:
